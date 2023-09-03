@@ -9,7 +9,7 @@ def start(message):
  
  bot.send_message(message.chat.id,f"""<strong>- ارسل ملفك البايثون ليتم تشفيره 
 يتم تشفيره بأكثر من طبقة
-⌁ انواع التشفير : 
+⌁ انواع التشفير : @C35CS
 ـ marshal,base46,zlib ـ</strong>""",parse_mode="html")
  @bot.message_handler(content_types=['document'])
  def send(message):
