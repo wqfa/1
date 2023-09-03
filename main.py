@@ -46,8 +46,8 @@ def fam(dat, id):
             continue
         names.append({'name': f'{fname} {mname} {lname}'.replace("\x84", ''), 'birth': f'{int(birth)}', 'fam':id})
     return names
-token = '6115292507:AAFoxsFHeB8k8bnCm-I6Z8JQRTIDZpO4b5U'
-bot = telebot.TeleBot("6115292507:AAFoxsFHeB8k8bnCm-I6Z8JQRTIDZpO4b5U", num_threads=50, skip_pending=True)
+token = '6115292507:AAH8kdzteV7DaXa8KI-lWdmoEBKzZU6A7GY'
+bot = telebot.TeleBot("6115292507:AAH8kdzteV7DaXa8KI-lWdmoEBKzZU6A7GY", num_threads=50, skip_pending=True)
 channel = "-1001926514196"
 logins=['creator','member','administrator']
 adds = [5191376406]
