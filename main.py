@@ -34,9 +34,7 @@ BY ~ @DevEviI  &  @C35CS</strong>""",parse_mode="html")
  	 d.write(b+'\n'+cv)
  	 d.close()
  	 file = {'document':open('[@DevEviI].py','rb')}
- 	 tex = ("Done Encryption File
-   ✛━━━━━━━━━━━━━━━✛
-   BY ~ @DevEviI & @C35CS")
+ 	 tex = ("ENCRYPTED BY @C35CS ")
  	 requests.post(f'https://api.telegram.org/bot{token}/sendDocument?chat_id={message.chat.id}&caption={tex}', files=file)
  	 bot.send_message(message.chat.id, f"[- منظمة النازي 🌪️ ،](t.me/C15CS)",parse_mode="markdown",disable_web_page_preview="true")
  	 os.system(f'rm -rf [@DevEviI].py')
